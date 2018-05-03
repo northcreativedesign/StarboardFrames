@@ -1,0 +1,109 @@
+#brands-section {
+  .small-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .brand-hero {
+    @include herobackground('../img/brand_hero.jpg');
+  }
+  h1, h4 {
+    text-align: center;
+  }
+  h1 {
+    margin-top: 60px;
+    color: #41421e
+  }
+  h4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    color: #464646;
+    font-style: italic;
+    @include breakpoint(large) {
+      padding-left: 200px;
+      padding-right: 200px;
+      font-size: 1.3rem;
+    }
+  }
+  .row {
+    &:nth-child(3) {
+      margin-top: 60px;
+      padding-left: 15px;
+      padding-right: 15px;
+      @include breakpoint(medium) {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      @include breakpoint(large) {
+        padding-left: 140px;
+        padding-right: 80px;
+      }
+      }
+      &:nth-child(4) {
+        h4 {
+          margin-top: 10px;
+        }
+      }
+      &:nth-child(5) {
+        padding-left: 15px;
+        padding-right: 15px;
+        @include breakpoint(medium) {
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+        @include breakpoint(large) {
+          padding-left: 60px;
+          padding-right: 60px;
+        }
+      }
+      &:nth-child(6) {
+        margin-bottom: 60px;
+      }
+   }
+   .larson {
+     padding-top: 25px;
+   }
+   .framers-inventory {
+     padding-left: 0px;
+     padding-top: 30px;
+
+     @include breakpoint(medium) {
+       padding-left: 25px;
+       padding-right: 0px;
+     }
+   }
+   .rustic {
+     padding-left: 0px;
+     margin-top: 30px;
+     @include breakpoint(medium) {
+       padding-left: 40px;
+       margin-top: 0px;
+     }
+   }
+   .direct-moulding {
+     padding-top: 65px;
+   }
+   .bella-moulding {
+     padding-top: 60px;
+   }
+   .goldleaf {
+     padding-top: 40px;
+   }
+   .truvue {
+     padding-top: 70px;
+     @include breakpoint(medium only) {
+       padding-top: 40px;
+     }
+   }
+   .crescent {
+     padding-top: 20px;
+     @include breakpoint(medium only) {
+       padding-top: 0px;
+     }
+   }
+   img {
+     display: block;
+     margin: 0 auto;
+   }
+}

@@ -1,0 +1,160 @@
+{
+  "artist": {
+    "header": "Learn about our artists",
+    "subheader": "Starboard Frames features over 25 Local Artists showcasing a variety of artwork styles. This includes photography, metal prints, canvases, pottery, woodturned bowls and lamps, custom jewelry, art cards and seaweed baskets.",
+    "subheadertwo": "All items are available for purchase at our gallery & frame shop, located at 407 Dock St, Ketchikan AK 99901"
+  },
+  "artists": [
+    {
+      "name": "Spring Moon Barry",
+      "focus": "Graphic Designer BFA",
+      "style": "Mix Media & Digital Illustration"
+    },
+    {
+      "name": "Will Bousley",
+      "focus": "Artist & Fisherman",
+      "style": "Black & White + Color Pencil Drawings"
+    },
+    {
+      "name": "Tracy Brown",
+      "focus": "Graphic Artist"
+    },
+    {
+      "name": "Tom Crestodina",
+      "focus": "Artist & Fisherman",
+      "style": "Cross section drawings of all types of marine vessels, including Noah's Ark!",
+      "link": "http://www.thescow.bigcartel.com"
+    },
+    {
+      "name": "Brian Elliot",
+      "focus": "Block Print Artist",
+      "link": "http://www.coastalartgallery.com"
+    },
+    {
+      "name": "Terry Pyles",
+      "focus": "Acrylic Painter",
+      "style": "Landscapes & Portraits",
+      "link":  "http://www.alaskanart.net"
+    },
+    {
+      "name": "Marnie Rethmeier",
+      "focus": "Watercolor & Bead Artist"
+    },
+    {
+      "name": "Dave Rubin",
+      "focus": "Oil Painter",
+      "style": "Classic Portraits and Landscapes"
+    },
+    {
+      "name": "Sandy Shepard",
+      "focus": "Multimedia Artist",
+      "link": "http://www.sandyshepard.com"
+    },
+    {
+      "name": "Evon Zerbetz",
+      "focus": "Art Cards & Books Carried Here",
+      "link": "http://www.evonzerbetz.com/"
+    },
+    {
+      "name": "Aurora Soap Magic",
+      "focus": "Custom Soaps & Bathbombs",
+      "link": "info@aurorasoapmagic.com"
+    }
+  ],
+  "photographers": [
+    {
+      "name": "Jeremy Barry",
+      "focus": "Landscape Photographer",
+      "link": "http://www.facebook.com/jeremydanielphotos"
+    },
+    {
+      "name": "Doug Burkman",
+      "focus": "Natural & Wildlife Photographer",
+      "link": "http://www.whalepassphotography.zenfolio.com"
+    },
+    {
+      "name": "MJ Cadle",
+      "focus": "Photographer",
+      "link": "http://www.mjcadlephotography.com"
+    },
+    {
+      "name": "Mike Gates",
+      "focus": "Photographer",
+      "link": "http://www.mikegatesphotography.com"
+    },
+    {
+      "name": "Danny Hoggard",
+      "focus": "Photographer of Float Planes & Local Wildlife"
+    }
+  ],
+  "jewelry": [
+    {
+      "name": "Kelsey Kenyon Boyd",
+      "focus": "Rockfish Designs",
+      "style": " Metalsmith/Jewelry Creator"
+    },
+    {
+      "name": "Adrian Garcia",
+      "focus": "Silversmith, Engraver & Jewelry Designer",
+      "link": "http://www.amadorengraving.com"
+    },
+    {
+      "name": "Anne Margaret Shuham",
+      "focus": "Metal Smith, Jewelry Creator"
+    },
+    {
+      "name": "Anna Shaffer",
+      "focus": "Bead Creations/Jewelry",
+      "style": "With Natural Materials and Swarovski Crystals."
+    },
+    {
+      "name": "Carolyn Thompson",
+      "focus": "CatTales",
+      "style": "Jewely creation with Swarovski Crystals and components from vintage jewlery."
+    }
+  ],
+  "nativeartists": [
+    {
+      "name": "Erik Hudson",
+      "focus": "Tsimshian Artist, Metlakatla",
+      "style": "Print Maker & Carver."
+    },
+    {
+      "name": "Jack Hudson",
+      "focus": "Tsimshian Artist, Metlakatla",
+      "style": "Wood Carver, Silver Engraver + Print Maker"
+    },
+    {
+      "name": "Norman Jackson",
+      "focus": "Tlingit Wood Carver & Print Maker"
+    }
+  ],
+  "woodworking": [
+    {
+      "name": "Lisa Lemay Doyon",
+      "focus": "Baskets & Ornaments from Kelp"
+    },
+    {
+      "name": "Jerry Hildebrandt",
+      "focus": "Hild's Crafts",
+      "style": "Wood craft & ornaments featuring local woods"
+    },
+    {
+      "name": "Scott Kline",
+      "focus": "Walking Sticks & Canes."
+    },
+    {
+      "name": "George Shaffer",
+      "focus": "Wood Turning, Wood Working"
+    },
+    {
+      "name": "Leif & Erik Sivertsen",
+      "focus": "Bigfoot Pottery",
+      "style": "Hand thrown pottery using local materials"
+    },
+    {
+      "name": "Gary Werner",
+      "focus": "Wood Turning"
+    }
+  ]
+}

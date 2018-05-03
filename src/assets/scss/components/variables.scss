@@ -1,0 +1,92 @@
+// Content Variables
+
+$maincolor-header: #be912d;
+$textmaincolor: white;
+$mainfont: 'Source Sans Pro';
+
+// Mixins
+
+@mixin herobackground ($imgpath, $position: center, $backgroundsize: cover, $height: 596px) {
+  background: url($imgpath);
+  background-position: $position;
+  height: $height;
+  background-size: $backgroundsize;
+
+  h1 {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 40px;
+      padding-top: 96px;
+      @include breakpoint(small only) {
+        padding-top: 50px;
+        font-size: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+  }
+
+  h4 {
+      text-align: center;
+      padding-top: 50px;
+      font-family: $mainfont;
+      font-weight: 500;
+      line-height: 2;
+      letter-spacing: .5px;
+      font-style: italic;
+      padding-left: 120px;
+      padding-right: 120px;
+  }
+}
+
+@mixin giftcollection ($imgpath, $height, $postion: center, $backgroundsize: cover) {
+    background: url($imgpath);
+    background-position: $postion;
+    background-size: $backgroundsize;
+    height: $height;
+}
+
+// Global Elements
+
+h1 {
+    color: $textmaincolor;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: $mainfont;
+
+    @include breakpoint(xlarge) {
+      font-size: 37px;
+    }
+
+    @media screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+        font-size: 27px;
+    }
+}
+
+h4 {
+      color: $textmaincolor;
+}
+
+h6 {
+  color: $textmaincolor;
+  font-style: italic;
+  font-family: $mainfont;
+}
+
+p {
+      color: $textmaincolor;
+      font-size: 16px;
+      letter-spacing: .25px;
+      font-family: $mainfont;
+       @media screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+        font-size: 13px;
+    }
+    @include breakpoint(small only) {
+      font-size: 13px;
+    }
+}
+
+a {
+  color: black;
+  font-family: $mainfont;
+}

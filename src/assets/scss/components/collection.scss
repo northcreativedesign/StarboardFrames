@@ -1,0 +1,82 @@
+/*
+===========================================================
+            Gift Collection Page
+===========================================================
+*/
+
+// Gift Collection Hero Image
+
+#collection-hero-section {
+  .small-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .gifthero {
+     @include herobackground('../img/giftcollection_hero.jpg');
+     h4 {
+         padding-left: 0px;
+         padding-right: 0px;
+         font-size: 14px;
+         padding-left: 25px;
+         padding-right: 25px;
+         &:last-child {
+             padding-top: 10px;
+         }
+         @include breakpoint(medium) {
+           padding-left: 50px;
+           padding-right: 50px;
+         }
+         @include breakpoint(large) {
+           padding-left: 200px;
+           padding-right: 150px;
+           font-size: 20px;
+           &:last-child {
+               padding-top: 40px;
+           }
+         }
+     }
+  }
+}
+
+
+// Gift Collection Main Section
+
+
+#giftcollection {
+  margin-top: 15px;
+
+@include breakpoint(large) {
+  margin-top: 35px;
+}
+    .giftcollection1 {
+        @include giftcollection ('../img/giftcollection1.jpg', 395px);
+        margin-top: 15px;
+
+    }
+
+    .giftcollection2 {
+        @include giftcollection ('../img/giftcollection2.jpg', 395px);
+        background-position: center center;
+        margin-top: 15px;
+    }
+
+    .giftcollection3 {
+        @include giftcollection ('../img/giftcollection3.jpg', 476px);
+        margin-top: 15px;
+        background-position: left;
+    }
+
+    .giftcollection4 {
+        @include giftcollection ('../img/giftcollection4.jpg', 476px);
+        margin-top: 15px;
+    }
+
+   .giftcollection5 {
+        @include giftcollection ('../img/giftcollection5.jpg', 501px);
+        margin-top: 15px;
+    }
+   .giftcollection6 {
+        @include giftcollection ('../img/giftcollection6.jpg', 501px);
+        margin-top: 15px;
+    }
+}

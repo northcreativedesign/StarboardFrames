@@ -1,0 +1,86 @@
+
+<section id="artist-hero-section">
+  <div class="container">
+    <div class="row expanded">
+      <div class="small-12 columns">
+        <div class="artist-section">
+          {{#each artist}}
+          <h1>{{header}}</h1>
+           <h4>{{subheader}}</h4>
+           <h4>{{subheadertwo}}</h4>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="artist-list">
+ <div class="container">
+   <div class="row">
+     <div class="small-12 columns main-artist-header">
+       <h1>ARTIST DIRECTORY</h1>
+     </div>
+   </div>
+ </div>
+ <div class="container">
+   <div class="row">
+     <div class="medium-6 columns artists" data-equalizer>
+       <h1>Artists</h1>
+       <div class="artist-card" data-equalizer-watch>
+         {{#each artist.artists}}
+          <h6>{{name}}</h6>
+          <p>{{focus}}</p>
+          <p>{{style}}</p>
+          <a href="{{link}}" target="_blank">{{link}}</a>
+          {{/each}}
+       </div>
+     </div>
+     <div class="medium-6 columns photographers" data-equalizer>
+       <h1>Photographers</h1>
+       <div class="artist-card" data-equalizer-watch>
+         {{#each artist.photographers}}
+         <h6>{{name}}</h6>
+         <p>{{focus}}</p>
+         <p>{{style}}</p>
+         <a href="{{link}}" target="_blank">{{link}}</a>
+         {{/each}}
+       </div>
+     </div>
+     <div class="medium-6 columns jewelry" data-equalizer>
+       <h1>Jewelry</h1>
+       <div class="artist-card" data-equalizer-watch>
+         {{#each artist.jewelry}}
+         <h6>{{name}}</h6>
+         <p>{{focus}}</p>
+         <p>{{style}}</p>
+         <a href="{{link}}" target="_blank">{{link}}</a>
+         {{/each}}
+       </div>
+     </div>
+   </div>
+   <div class="row">
+     <div class="medium-6 columns nativeartists" data-equalizer>
+       <h1>Native Artists</h1>
+       <div class="artist-card" data-equalizer-watch>
+         {{#each artist.nativeartists}}
+         <h6>{{name}}</h6>
+         <p>{{focus}}</p>
+         <p>{{style}}</p>
+         <a href="{{link}}" target="_blank">{{link}}</a>
+         {{/each}}
+       </div>
+     </div>
+     <div class="medium-6 columns wood-working" data-equalizer>
+       <h1>Woodworking &amp; Other Creations from Nature</h1>
+       <div class="artist-card" data-equalizer-watch>
+         {{#each artist.woodworking}}
+         <h6>{{name}}</h6>
+         <p>{{focus}}</p>
+         <p>{{style}}</p>
+         <a href="{{link}}" target="_blank">{{link}}</a>
+         {{/each}}
+       </div>
+     </div>
+   </div>
+   </div>
+</section>
