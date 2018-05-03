@@ -1,8 +1,6 @@
-/*
-=====================================================
+/*=====================================================
                   Main Page
-=====================================================
-*/
+=====================================================*/
 
 
 // Navigation Section
@@ -46,7 +44,12 @@
 }
 
 .logosmall {
-
+  @include breakpoint(small only) {
+    display: inline-block;
+    position: absolute;
+    left: 81.5%;
+    transform: translate(-50%, -75%);
+  }
 }
 
 
@@ -71,6 +74,7 @@
      height: 485px;
      @include breakpoint(small only) {
        margin-top: 20px;
+       height: auto;
      }
      @include breakpoint(medium) {
        height: 585px;
@@ -80,7 +84,7 @@
        padding-left: 14px;
        padding-right: 14px;
        @include breakpoint(small only) {
-         padding-right: 100px;
+         padding-right: 50px;
        }
      }
 
@@ -100,11 +104,18 @@
        @include breakpoint(xlarge) {
          font-size: 1.3rem;
        }
+       @include breakpoint(small only) {
+         padding-right: 40px;
+       }
      }
      p {
        padding-top: 25px;
        padding-left: 14px;
        padding-right: 20px;
+       @include breakpoint(small only) {
+         padding-bottom: 50px;
+         margin: 0;
+       }
      }
    }
   .main-hero {
@@ -113,6 +124,9 @@
      background-size: cover;
      background-repeat: no-repeat;
      background-position:  center;
+     @include breakpoint(medium down) {
+       background-image: url(../img/heromobile.jpg);
+     }
      @include breakpoint(small only) {
        height: 400px;
        background-position: right;
